@@ -1,0 +1,40 @@
+<!-- <h2>Prediction</h2>
+
+<form method="POST">
+Age: <input name="age"><br><br>
+Heart Rate: <input name="heart"><br><br>
+<button>Predict</button>
+</form>
+
+{% if result == 1 %}
+<h3 style="color:red;">⚠️ Arrhythmia Detected</h3>
+{% elif result == 0 %}
+<h3 style="color:green;">✅ Normal</h3>
+{% endif %} -->
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Predict</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body class="hero">
+
+<div class="card">
+<h2>Heart Prediction</h2>
+
+<form method="POST">
+<input type="number" name="age" placeholder="Age"><br><br>
+<input type="number" name="heart" placeholder="Heart Rate"><br><br>
+<button class="btn">Predict</button>
+</form>
+
+<h3>{{ result }}</h3>
+
+</div>
+
+</body>
+</html>

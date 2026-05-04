@@ -1,0 +1,97 @@
+/* body {
+    margin:0;
+    font-family: Arial;
+    background-image: url('https://images.unsplash.com/photo-1588776814546-1ffcf47267a5');
+    background-size: cover;
+    color: white;
+}
+
+.navbar {
+    background: black;
+    padding: 15px;
+}
+
+.navbar a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.hero {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.card {
+    background: rgba(0,0,0,0.7);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+} */
+
+
+/* body {
+    margin:0;
+    font-family:Arial;
+    background: url('https://cdn.pixabay.com/photo/2017/08/30/07/52/heart-2697904_1280.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.overlay{
+    background: rgba(0,0,0,0.6);
+    min-height:100vh;
+    color:white;
+    padding-bottom:40px;
+}
+
+.card{
+    border-radius:15px;
+    padding:20px;
+    text-align:center;
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:scale(1.05);
+}
+
+.center-box{
+    margin-top:150px;
+    text-align:center;
+} */
+
+
+body {
+    margin:0;
+    font-family:Arial;
+    background: url('https://images.unsplash.com/photo-1588776814546-1ffcf47267a5') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.overlay{
+    background: rgba(0,0,0,0.7);
+    min-height:100vh;
+    color:white;
+    padding:20px;
+}
+
+.card{
+    border-radius:15px;
+    padding:20px;
+    transition:0.3s;
+    box-shadow:0 4px 10px rgba(0,0,0,0.3);
+}
+
+.card:hover{
+    transform:scale(1.05);
+}
+
+.hero h1{
+    font-size:50px;
+}
